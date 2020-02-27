@@ -870,8 +870,18 @@ span {
     font-size: 12px;
 }
 
+.citation,
+.citation>span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 400;
+    border: 1px transparent solid;
 
+}
 
+.partenaires {
+    list-style: none;
+}
 
 
 
