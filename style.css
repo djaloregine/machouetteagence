@@ -470,7 +470,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #87704c;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -559,7 +559,7 @@ a[data-lightbox]:hover::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: #87704c;
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -592,7 +592,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #87704c;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -601,7 +601,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: #87704c;
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -618,7 +618,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: #87704c;
 }
 
 .next-lightbox,
@@ -706,7 +706,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #87704cFFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -737,11 +737,11 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
+    color: #FFFFF5 !important;
 }
 
 h4 {
-    color: #333333 !important;
+    color: #FFFFF5 !important;
 }
 
 .icons {
@@ -750,7 +750,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #FFFFF5 !important;
 }
 
 .portfolio-thumb {
@@ -785,25 +785,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9c6d57;
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #FFFFF5 !important;
+    filter: contrast(1);
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF !important;
+    background: #FFFFF5;
+    color: #87704cFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFFFFF !important;
+    color: #87704cFFF !important;
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #87704cFFF !important;
 }
 
 .ltc-white:hover {
@@ -811,7 +812,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: #87704cFF5 !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -833,6 +834,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    filter: saturate(1);
 }
 
 .bg-presentation {
@@ -1111,4 +1113,18 @@ span {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* REGINE */
+
+.site-navigation.nav.navbar-nav>ul {
+    list-style: none;
+}
+
+.site-navigation.nav.navbar-nav>ul>li>a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #87704c;
 }
