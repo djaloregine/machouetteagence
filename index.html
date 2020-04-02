@@ -3,20 +3,28 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta data-react-helmet="true" name="robots" content="index">
+	<meta data-react-helmet="true" name="robots" content="index, follow">
 	<meta name="keywords"
 		content="stratégie digitale, web design, site web, site internet, agence web design Lyon, communication digitale, conception web, supports web">
 	<meta name="description"
 		content="Notre agence webdesign propose son expertise dans l'élaboration de votre stratégie digitale et la conception des supports web qui lui donneront une existence : 04 78 72 66 66 66">
+	<!-- méta données pour facebook et linkedin -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Agence Web Lyon | La chouette agence" />
 	<meta property="og:description"
 		content="Notre agence webdesign propose son expertise dans l'élaboration de votre stratégie digitale et la conception des supports web qui lui donneront une existence : 04 78 72 66 66 66" />
 	<meta property="og:url" content="http://www.rdformationprofessionnelle.com/MaChouetteAgence_/" />
-	<meta property="og:image" content=»URL de l’image que vous souhaitez afficher » A REVOIR />
+	<meta property="og:image" content="url(img/4.jpeg
+	)" />
 	<meta property="og:site_name" content="Ma chouette agence" />
-
-
+	<!-- méta données pour twitter -->
+	<meta name="twitter:card" content="carte résumé de base">
+	<meta name="twitter:site" content="Ma chouette agence">
+	<meta name="twitter:title" content="Agence Web Lyon, stratégie et création de supports numériques">
+	<meta name="twitter:description"
+		content="Notre agence webdesign propose son expertise dans l'élaboration de votre stratégie digitale et la conception des supports web qui lui donneront une existence : 04 78 72 66 66 66">
+	<meta name="twitter:creator" content="directeur agence">
+	<meta name="twitter:image:src" content="url(img/4.jpeg)">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -27,7 +35,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 
-
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
@@ -36,9 +43,18 @@
 
 	<title> Agence Web Lyon, stratégie et création de supports numériques</title>
 
+	<!-- Analytics / Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160760871-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-	<!-- Analytics -->
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
+		gtag('config', 'UA-160760871-1');
+	</script>
 	<!-- Analytics END -->
 
 </head>
@@ -107,7 +123,7 @@
 				<div class="row">
 					<div class="col-sm-12 text-center sujet">
 						<h2 id="propositions"> Nos propositions </h2>
-						<p> La chouette agence est <span> une agence web design </span>qui aide les entreprises à
+						<p> La chouette agence est <strong> une agence web design </strong>qui aide les entreprises à
 							devenir attractives
 							et visibles sur internet </p>
 					</div>
@@ -122,7 +138,7 @@
 						</h3>
 						<p class="text-center ">
 							Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de
-							zéro, laissez-nous vous réaliser un design dont vous serez fier.
+							zéro, laissez-nous vous réaliser <strong> un design </strong> dont vous serez fier.
 						</p>
 					</div>
 					<div class="col-sm-4">
@@ -134,7 +150,8 @@
 						</h3>
 						<p class="text-center ">
 							Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre
-							vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
+							vos objectifs commerciaux afin de vous proposer <strong> le meilleur design
+								possible.</strong>
 						</p>
 					</div>
 					<div class="col-sm-4">
@@ -145,14 +162,17 @@
 							Illustrations
 						</h3>
 						<p class="text-center ">
-							Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de
-							graphistes talentueux pour donner à vos pages une touche finale d'élégance.
+							Un bon design n'est rien sans de bonnes <strong>illustrations. </strong> Laissez faire notre
+							équipe de
+							<strong> graphistes talentueux </strong>pour donner à vos pages une touche finale
+							d'élégance.
 						</p>
 					</div>
 				</div>
 				<div class="row voffset-lg voffset">
 					<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
-						<p class="citation"> "La chouette agence est une excellente agence web ! Les web designers ont
+						<p class="citation"> "La chouette agence est <strong> une excellente agence web !</strong> Les
+							web designers ont
 							réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a
 							aidé à doubler nos ventes en ligne à Lyon." <span> Maxime Guibart, PDG de A vos fourchettes.
 							</span> </p>
@@ -176,7 +196,8 @@
 						<p class="text-center white">
 							Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles
 							aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous
-							ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
+							ayez besoin <strong> d’une identité visuelle complète </strong> ou d’une refonte de votre
+							site, n’hésitez pas à
 							nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien structurés,
 							qui seront facilement trouvables sur les moteurs de recherche. <br><br><a
 								class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
@@ -224,28 +245,31 @@
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1"
-							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img
-								src="img/3.bmp" class="img-responsive portfolio-thumb"
+						<a href="#" data-lightbox="img/3.jpeg
+						" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur"
+							data-frame="snapshot-lb"><img src="img/3.jpeg
+								" class="img-responsive portfolio-thumb"
 								alt="divers éléments d'appareils photos posés sur un fond noir et un mac" /></a>
 						<h3 class="mg-md text-center">
 							Création d'un site internet pour un voyageur
 						</h3>
 						<p class="text-center">
-							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les
+							Nous avons élaboré un site internet et des illustrations <strong> pour sublimer les vidéos
+							</strong> et les
 							articles de ce voyageur.
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1"
-							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img
-								src="img/4.bmp" class="img-responsive portfolio-thumb"
-								alt="table de bureau avec divers objes dont un mac" /></a>
+						<a href="#" data-lightbox="img/4.jpeg
+						" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage"
+							data-frame="snapshot-lb"><img src="img/4.jpeg
+								" class="img-responsive portfolio-thumb" alt="table de bureau avec divers objes dont un mac" /></a>
 						<h3 class="mg-md text-center">
 							Conception d'un site pour une agence de mariage
 						</h3>
 						<p class="text-center">
-							Nous avons travaillé avec cette agence pour créer un site internet permettant la
+							Nous avons travaillé avec cette agence pour <strong> créer un site internet </strong>
+							permettant la
 							présentation détaillée de leurs prestations.
 						</p>
 					</div>
@@ -300,60 +324,6 @@
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
-
-							<!-- 
-							<div class="row">
-								<div class="col-sm-12">
-									<h2 id="partenaires" class="text-center">
-										Nos partenaires </h2>
-									<ul class="partenaires">
-										<li class="col-sm-3"> <i class="fas fa-car fa-2x"> <a href="voiture.com">
-													voiture.com </i> </a>
-										</li>
-										<li class="col-sm-3"><a href="pizza.com"> <i class="fas fa-pizza-slice"></i>
-												pizza.com</a></li>
-										<li class="col-sm-3"><a href="matoiture.com"> <i class="fad fa-home fa-2x">
-												</i>matoiture.com</a></li>
-										<li class="col-sm-3"><a href="immobilierseo.com"> <i
-													class="far fa-building fa-2x">
-												</i>immobilierseo.com</a></li>
-									</ul>
-								</div>
-
-
-
-							
-								<div class="col-sm-4">
-									Annuaires liste 1
-									<ul>
-										<li><a href="annuaireagence.com">annuaireagence.com</a></li>
-										<li><a href="annuaireseo.com">annuaireseo.com</a></li>
-										<li><a href="annuairemarketing.com">annuairemarketing.com</a></li>
-										<li><a href="123seoture.com">123seo.com</a></li>
-										<li><a href="123site.com">123site.com</a></li>
-										<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
-										<li><a href="listeagence.com">listeagence.com</a></li>
-										<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
-										<li><a href="listeseo.com">listeseo.com</a></li>
-									</ul>
-								</div>
-								<div class="col-sm-4">
-									Annuaires liste 2
-									<ul>
-										<li><a href="betterseo.com">betterseo.com</a></li>
-										<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
-										<li><a href="seojuicelien.com">seojuicelien.com</a></li>
-										<li><a href="meilleursliens.com">meilleursliens.com</a></li>
-										<li><a href="liensagogo.com">liensagogo.com</a></li>
-										<li><a href="backlink.com">backlink.com</a></li>
-										<li><a href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
-										<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
-										<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
-									</ul>
-								</div>
-
--->
-
 
 						</div>
 					</div>
